@@ -1,0 +1,53 @@
+html{
+	height: 100%;
+}
+
+
+body {
+  height: 100%;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container{
+	height: 100% !important;
+}
+
+h2{
+	text-align: center;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+
+.result{
+	height: 100%;
+}
+
+.list-group-item:hover{
+	cursor: pointer;
+}
+
+.list-group-item.active {
+    border-color: black !important;
+}
+
+input{
+	margin-bottom: 1vh;
+}
+
+button{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	width: 100%;
+}
+
+
+button:hover{
+	cursor: pointer;
+}
+
+
+.text{
+	text-align: center;
+}

@@ -1,0 +1,33 @@
+extends layout
+
+block content
+	.container
+		.row
+			.col-md-3
+				h2 Options
+				input#ip.form-control(type="text" placeholder="IP [/mask] Default localhost")
+				button#scan.btn.btn-primary Scan!
+				.list-group
+					.list-group-item.list-group-item-action(href="#" value="-sO") IP Analysis -sO
+					.list-group-item.list-group-item-action(href="#" value="-sU") UDP Scan -sU
+					.list-group-item.list-group-item-action(href="#" value="-O") Os Detection  -O
+					.list-group-item.list-group-item-action(href="#" value="-A -v") Os and Version -A -v
+					.list-group-item.list-group-item-action(href="#" value="-sL") List Scan -sL
+					.list-group-item.list-group-item-action(href="#" value="-sn") Ping Scan -sn
+					.list-group-item.list-group-item-action(href="#" value="-sV") Fingerprinting -sV
+					.list-group-item.list-group-item-action(href="#" value="-F") Fast -F 
+					.list-group-item.list-group-item-action(href="#" value="-f") Fragment -f
+					.list-group-item.list-group-item-action(href="#" value="-f-") All ports -t-
+					br
+					
+					input#t.form-control(type="text" placeholder="[Optional] Lower-Faster -T [0-5]")
+					input#range.form-control(type="text" placeholder="[Optional] Port range   -p [range]")
+					
+
+
+			.col-md-7
+				h2 Result
+				.result
+					h5.text Select Options al press SCAN or ENTER :)
+					h5.textc
+		
