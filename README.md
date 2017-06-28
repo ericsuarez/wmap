@@ -1,7 +1,6 @@
 ![WMAP](logo.png)
 > :dizzy: Nmap web interface to execute the main commands more friendly.
 
-Interact with Nmap with more easily. With a simple Interface
 
 ![gif](interact.gif)
 
